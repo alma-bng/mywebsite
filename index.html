@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,37 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 id="typing"></h1>
-        <script src="index.js"></script>
-  <p>FRONT-END DEVELOPER</p>
-    </header>
 
-    <section>
-    <h2>About Me</h2>
-    <img src="https://raw.githubusercontent.com/alma-bng/mywebsite/main/IMG_2832.jpg" alt="Salma Abdirashid - Front End Developer" width="200">
-    <p>I'm Salma Abdirashid, an aspiring front-end developer passionate about creating engaging, user-friendly web experiences. With a strong foundation in web development fundamentals, I'm dedicated to transforming creative ideas into responsive, accessible websites.</p>
+<header>
+    <h1 id="typing"></h1>
+    <p>FRONT-END DEVELOPER</p>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <div class="about-me">
+        <img src="https://raw.githubusercontent.com/alma-bng/mywebsite/main/IMG_2832.jpg" 
+             alt="Salma Abdirashid - Front End Developer" width="200">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>I'm Salma Abdirashid, an aspiring front-end developer passionate about creating engaging, user-friendly web experiences. With a strong foundation in web development fundamentals, I'm dedicated to transforming creative ideas into responsive, accessible websites.</p>
+            <p>Currently focused on mastering modern development tools and frameworks while developing practical projects. I enjoy the challenge of combining technical skills with design principles to build intuitive interfaces that solve real-world problems.</p>
+            <p>What drives me:</p>
+        </div>
+    </div>
     
-    <p>Currently focused on mastering modern development tools and frameworks while developing practical projects. I enjoy the challenge of combining technical skills with design principles to build intuitive interfaces that solve real-world problems.</p>
-
-    <p>What drives me:
     <ul>
         <li>🧑💻 Writing clean, semantic HTML</li>
         <li>🎨 Implementing modern web designs</li>
         <li>📱 Creating responsive layouts</li>
         <li>⚡ Optimizing user experiences</li>
     </ul>
-    </p>
 </section>
 
-<section>
+<section id="contact">
     <h2>Contact Information</h2>
-    <p>Whatsapp: <a href="https://wa.me/254740893039"target="blank">message me on whatsapp</a>
+    <p>Whatsapp: <a href="https://wa.me/254740893039" target="_blank">Message me on WhatsApp</a></p>
     <p>📞 Phone: <a href="tel:+254740893039">0740893039</a></p>
-    <p>📧 Email: <a href="mailto:yakubsalmaabdi@gmail.com">email me</a></p>
+    <p>📧 Email: <a href="mailto:yakubsalmaabdi@gmail.com">Email me</a></p>
 </section>
 
-<section>
+<section id="skills">
     <h2>Technical Skills</h2>
     <ul>
         <li>HTML5</li>
@@ -47,5 +54,7 @@
         <li>Responsive Web Design</li>
     </ul>
 </section>
+
+<script src="index.js"></script> <!-- Moved to the bottom -->
 </body>
-    </html>
+</html>
